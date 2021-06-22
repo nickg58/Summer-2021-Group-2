@@ -11,12 +11,14 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {ToolbarComponent} from './toolbar/toolbar.component';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    ToolbarComponent
+    ToolbarComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
